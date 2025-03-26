@@ -56,7 +56,7 @@ for word, hint in word_hint_pairs:
     # Second attempt
     user_word = input("Take a second guess? ")
     if user_word == word:
-        total_points += 1
+        total_points += 2
         second_attempts += 1
         print("\U00002705 Correct! (1 point)")
     else:
@@ -70,7 +70,7 @@ print(f"First Attempts  = {first_attempts}")
 print(f"Second Attempts = {second_attempts}")
  
 # Determine grade
-total_words = len(word_hint_pairs)
+total_words = len(word_hint_pairs)  #length of total words in word_clue.txt
 max_points = total_words * 2
 percentage = (total_points / max_points) * 100
  
@@ -90,4 +90,4 @@ else:
 print(f"Overall Grade   = {grade}")
  
 # Example content for words.txt:
-# apple:This is a fruit,banana:Yellow curved fruit,grape:Small round fruit
+# apple:This is a red fruit,banana:Yellow curved fruit,grape:Small round fruit

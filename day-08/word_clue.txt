@@ -1,1 +1,1 @@
-apple:This is a fruit,banana:Yellow curved fruit,grape:Small round fruit,orange:Citrus fruit,mango:Tropical fruit
+apple:This is a red fruit,banana:Yellow curved fruit,grape:Small round fruit,orange:Citrus fruit,mango:Tropical fruit
