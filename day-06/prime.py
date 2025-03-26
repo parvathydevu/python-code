@@ -15,7 +15,7 @@ def getAllprime(m,n):
     count=0
     primeNumbers=[]
     for x in range(m, n+1):
-        if (checkprime(x)):
+        if (checkprime(x)):e
             count+=1
             primeNumbers.append(x)
     return count, primeNumbers
