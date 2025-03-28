@@ -1,0 +1,1 @@
+from .getspancheck import getspan,reverseWords,removePunctuation,countWords,characterMap,makeTitle,normalizeSpaces,getPermutations

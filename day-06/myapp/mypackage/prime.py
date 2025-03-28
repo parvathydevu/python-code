@@ -1,3 +1,4 @@
+import __main__
 def checkprime(n):  #prime .py is module(collection of function)
     for i in range(2,n):
         if (n%i==0):
