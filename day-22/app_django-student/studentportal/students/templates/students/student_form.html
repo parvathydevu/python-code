@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h3>Logged in as {{ request.user }} | <a href="{% url 'logout' %}">Logout</a></h3>
+    <h1>Add Student</h1>
+    <form method="post" action="">
+        {% csrf_token %}
+        <h3><label>Name    </label><input type="text" name="name"></h3><br>
+        <h3><label>Age     </label><input type="number" name="age"></h3><br>
+        <h3><label>Class   </label><input type="text" name="class_name"></h3><br>
+        <h3><label>Marks    </label><input type="number" name="marks"></h3><br>
+        <button type="submit">Submit</button>
+    </form>
+    <h3><a href="{% url 'student_list' %}">View Students</a></h3>
+</body>
+</html>
+ 

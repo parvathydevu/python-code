@@ -1,0 +1,16 @@
+[
+    {
+        "acc_no": "45110c51",
+        "name": "Athira",
+        "email": "athira@hh,com",
+        "acc_type": "savings",
+        "balance": 0.0
+    },
+    {
+        "acc_no": "909c4acc",
+        "name": "Devika",
+        "email": "Devi@us.com",
+        "acc_type": "savings",
+        "balance": 0.0
+    }
+]

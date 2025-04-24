@@ -1,0 +1,37 @@
+What is a Time Series?
+
+📌 Definition:
+
+A time series is a sequence of data points collected or recorded at successive points in time, 
+typically at uniform intervals.
+
+🔍 Key Examples:
+
+    📈 Stock Prices (daily/hourly)
+    🌦️ Temperature records (hourly/daily)
+    🏭 Sensor readings (per second)
+    🏥 Patient vitals (minute-wise)
+    📊 Web traffic or sales data (daily/weekly)
+
+🧠 Why is Time Important?
+
+    Data is chronologically ordered
+    Order matters — previous values can affect future ones
+    Allows us to model trends, seasonality, and patterns
+
+Components of a Time Series
+
+📉 Components:
+
+    Trend: Long-term movement over time (upward/downward)
+    Seasonality: Repeating short-term cycle (daily, monthly, yearly)
+    Cyclic: Fluctuations without fixed frequency (e.g. economy)
+    Noise: Irregular, random variation
+
+✅ Applications:
+
+    📊 Forecasting (sales, demand, energy use)
+    📉 Anomaly Detection (fraud, machine failure)
+    🧠 Insights from patterns over time
+    📅 Time-dependent modeling (e.g., ARIMA, LSTM)
+

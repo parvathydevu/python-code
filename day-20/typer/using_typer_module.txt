@@ -1,0 +1,17 @@
+Typer is a modern Python library for building command-line interface (CLI) applications. It’s built on top of Click, and it's inspired by FastAPI, so it uses type hints and declarative syntax to create powerful CLIs with minimal code.
+
+Why Use Typer?
+
+    Auto-generation of help and CLI docs
+    Type safety with autocomplete (especially when used in tools like zsh or IDEs)
+    Built-in support for options, arguments, and commands
+    Very intuitive for Python developers, especially if you're familiar with FastAPI
+
+Installation:
+
+    pip install typer
+
+Usage:
+
+C:\day-19\42-app-bank-application>python app.py Purushotham --age 40
+Hello Purushotham! You are 40 years old.

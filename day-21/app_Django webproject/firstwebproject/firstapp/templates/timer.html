@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timer</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+        #txt {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body onload="startTime()">
+
+<h1>Timer</h1>
+<div id="txt"></div>
+
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    // add a zero in front of numbers<10
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById("txt").innerHTML = h + ":" + m + ":" + s;
+    var t = setTimeout(function(){ startTime() }, 500);
+    /* A function calling itself every 500 ms */
+}
+
+function checkTime(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
+</script>
+
+</body>
+</html>

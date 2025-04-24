@@ -1,0 +1,12 @@
+HTML Hypertext Markup Language
+Created by Tim Berners Lee in 1991.
+HTML used to create web pages and design a web page.-web development tools
+Latest version is HTML 5.
+1.Environment setup:
+--web browser- google browser
+--code editor- VS code
+
+models.py-allows you to persist /save all the details that we give in web page.
+It must reload and save old details of Students(class name), even if we close the web page
+
+take the data from student form and put into models.py then view it(diplay the student list in web page).

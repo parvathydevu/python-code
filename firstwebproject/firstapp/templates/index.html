@@ -1,0 +1,16 @@
+{% load static %}  <!-- aliasing the static -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'firstapp/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:blueviolet">Welcome to Django!</h1>
+    <h1> Name: {{ name }}, {{ age  }}</h1>  <!-- a variable inject from python code --{{ name }} inject -'Anil' from python views code-->
+    <h1 style="color: cadetblue;"> {{ dept }}</h1>
+    <img src="{% static 'firstapp/imagecar.jpg' %}" alt="My Image">
+</body>
+</html>

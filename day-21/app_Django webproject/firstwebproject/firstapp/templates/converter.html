@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'currencyconvapp/converter.css' %}">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded shadow-md w-96">
+        <h2 class="text-xl font-bold mb-4">Currency Converter</h2>
+        <form method="post" id="converter-form">
+            {% csrf_token %}
+            <label class="block mb-2">Amount in INR:</label>
+            <input type="number" step="any" id="inr" name="inr" class="w-full border px-2 py-1 mb-4 rounded" required>
+
+            <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+                Convert
+            </button>
+        </form>
+        {% if result %}
+            <div id="result" class="mt-4 text-lg font-semibold">{{ result }}</div>
+        {% endif %}
+    </div>
+    <script src="{% static 'currencyconvapp/converter.js' %}"></script>
+</body>
+</html>
+
