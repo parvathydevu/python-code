@@ -1,0 +1,145 @@
+[
+    {
+        "name": "Vijay",
+        "regid": "HPE001",
+        "age": 14,
+        "marks": {
+            "phy": 99,
+            "chem": 98,
+            "bio": 96,
+            "math": 97
+        },
+        "average": 97.5,
+        "rank": 2
+    },
+    {
+        "name": "Aryan",
+        "regid": "HPE002",
+        "age": 14,
+        "marks": {
+            "phy": 98,
+            "chem": 91,
+            "bio": 96,
+            "math": 93
+        },
+        "average": 94.5,
+        "rank": 6
+    },
+    {
+        "name": "Muni",
+        "regid": "HPE003",
+        "age": 14,
+        "marks": {
+            "phy": 97,
+            "chem": 98,
+            "bio": 94,
+            "math": 97
+        },
+        "average": 96.5,
+        "rank": 3
+    },
+    {
+        "name": "Abhi",
+        "regid": "HPE004",
+        "age": 14,
+        "marks": {
+            "phy": 96,
+            "chem": 93,
+            "bio": 95,
+            "math": 97
+        },
+        "average": 95.25,
+        "rank": 5
+    },
+    {
+        "name": "Hemanth",
+        "regid": "HPE005",
+        "age": 14,
+        "marks": {
+            "phy": 94,
+            "chem": 91,
+            "bio": 96,
+            "math": 93
+        },
+        "average": 93.5,
+        "rank": 7
+    },
+    {
+        "name": "Grace",
+        "regid": "HPE006",
+        "age": 14,
+        "marks": {
+            "phy": 94,
+            "chem": 95,
+            "bio": 97,
+            "math": 96
+        },
+        "average": 95.5,
+        "rank": 4
+    },
+    {
+        "name": "Ankita",
+        "regid": "CAP007",
+        "age": 14,
+        "marks": {
+            "phy": 99,
+            "chem": 99,
+            "bio": 99,
+            "math": 99
+        },
+        "average": 99.0,
+        "rank": 1
+    },
+    {
+        "name": "John",
+        "regid": "HPE008",
+        "age": 14,
+        "marks": {
+            "phy": 96,
+            "chem": 93,
+            "bio": 95,
+            "math": 97
+        },
+        "average": 95.25,
+        "rank": 5
+    },
+    {
+        "name": "Chris",
+        "regid": "HPE009",
+        "age": 14,
+        "marks": {
+            "phy": 94,
+            "chem": 91,
+            "bio": 96,
+            "math": 93
+        },
+        "average": 93.5,
+        "rank": 7
+    },
+    {
+        "name": "Grace",
+        "regid": "ORA006",
+        "age": 14,
+        "marks": {
+            "phy": 94,
+            "chem": 95,
+            "bio": 97,
+            "math": 96
+        },
+        "average": 95.5,
+        "rank": 4
+    },
+    {
+        "name": "Ankita",
+        "regid": "INF007",
+        "age": 14,
+        "marks": {
+            "phy": 99,
+            "chem": 99,
+            "bio": 99,
+            "math": 99
+        },
+        "average": 99.0,
+        "rank": 1
+    }
+]

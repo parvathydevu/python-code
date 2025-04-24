@@ -1,0 +1,26 @@
+[
+    {
+        "student_id": "23156",
+        "name": "parvathy",
+        "age": 23,
+        "grade": "A"
+    },
+    {
+        "student_id": "23236",
+        "name": "Devika",
+        "age": 24,
+        "grade": "A+"
+    },
+    {
+        "student_id": "237237",
+        "name": "Giri",
+        "age": 25,
+        "grade": "B"
+    },
+    {
+        "student_id": "23523",
+        "name": "Gowthami",
+        "age": 25,
+        "grade": "B"
+    }
+]

@@ -1,0 +1,25 @@
+'''statement 2:
+Advanced User Registration System
+Description: Design an advanced user registration system that validates user input using regular expressions
+ and handles exceptions gracefully. The system should support the following functionalities:
+User Registration: Allow users to register by providing their username, password, and email address.
+Input Validation: Validate the username, password, and email address using regular expressions.
+Exception Handling: Handle various exceptions that may occur during registration, such as invalid input, 
+duplicate usernames, and system errors.
+Requirements:
+Create a base class User with attributes for username, password, and email address.
+Implement methods for input validation using regular expressions:
+Username: Must be alphanumeric and between 5 to 15 characters.
+Password: Must contain at least one uppercase letter, one lowercase letter, one digit, and one special
+ character, and be between 8 to 20 characters.
+Email: Must follow standard email format (e.g., example@domain.com).
+Use exception handling to manage errors during registration:
+Raise custom exceptions for invalid input (e.g., InvalidUsernameException, InvalidPasswordException, 
+InvalidEmailException).
+Handle exceptions for duplicate usernames and system errors.
+Implement a registration method that uses polymorphism to validate input and handle exceptions.
+Difficulty:
+Designing the base class and methods for input validation using regular expressions.
+Implementing custom exceptions and handling them appropriately.
+Ensuring that the system can dynamically validate different types of input using polymorphism.
+Handling edge cases, such as extremely long input, special characters, and system errors.'''

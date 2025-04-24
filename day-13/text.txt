@@ -1,0 +1,3 @@
+Helloooo.
+Python, is, fun, to, learn
+ Writing, to, files, is, easy

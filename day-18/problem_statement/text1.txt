@@ -1,0 +1,28 @@
+Music Streaming Service Application
+Objective: Design a backend for a music streaming service (similar to Spotify or Apple Music).
+
+Expected Features:
+
+Stream and download songs
+Maintain user accounts and listening history
+Store inventory and transactions in JSON
+Notify if a song is unavailable or if the user exceeds download limits
+Key Concepts:
+
+OOP: Classes like Song, User, StreamingManager
+File Handling: Use JSON for users and inventory, TXT for streaming logs
+DSA: Use sets/maps to manage playlists, sort available songs
+Error Handling: Handle unregistered users, exceeded download limits
+Decorators: Notify or auto-fine users exceeding download limits
+Iterators: Iterate over user listening history
+Abstract Base Classes & Metaclass: Structure user roles (Admin, Member)
+Testing: Mock scenarios for unavailable songs, exceeded download limits, etc.
+Description: Create a music streaming system that allows the following functionalities:
+
+Add/Remove Songs (with validation and exceptions)
+Register members with unique IDs
+Stream and Download songs (limit 10 downloads per member)
+Persist data to songs.json and members.json
+Use decorators to log actions (stream, download, add) to a log.txt
+Implement an iterator for browsing the available songs
+Use abstract classes for User and SongItem, and enforce rules via inheritance
